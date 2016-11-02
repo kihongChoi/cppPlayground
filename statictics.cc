@@ -15,13 +15,13 @@ int main() {
         cout    <<  "Input item number " << i << " = ";
         cin     >> number;
         sum = sum + number;
-        sumSquare = sumSquare + number*number
+        sumSquare = sumSquare + number*number;
     }
 
     mean = sum/N;
     variance = sumSquare/N - mean*mean;
 
-    cout    <<  "The mean of the data is " << mean << " and the variance is " << variance endl;
+    cout    <<  "The mean of the data is " << mean << " and the variance is " << variance << endl;
 
     return 0;
 }
