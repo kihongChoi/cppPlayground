@@ -23,5 +23,13 @@ int main() {
 
     cout    <<  "The mean of the data is " << mean << " and the variance is " << variance << endl;
 
+    for (int i = 1; i <= N; i++) {
+        cout    <<  "Input item number " << i << " = ";
+        cin     >> number;
+        sum = sum + number;
+        sumSquare = sumSquare + number*number;
+    }
+
+
     return 0;
 }
